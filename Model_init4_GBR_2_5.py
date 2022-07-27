@@ -24,7 +24,6 @@ n_estimators : int (default=100)
 # 弱学习器的个数，或者弱学习器的最大迭代次数
 # 一般来说 n_estimators 太小，容易欠拟合；n_estimators 太大，容易过拟合
 
-
 max_depth : integer, optional (default=3)
 # 定义了树的最大深度。
 # 它也可以控制过度拟合，因为分类树越深就越可能过度拟合
