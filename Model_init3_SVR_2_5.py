@@ -12,3 +12,4 @@ gamma ： float，optional（default ='auto'）
 tol ： float，optional（default = 1e-3）
 收敛误差，如果w已收敛，则停止算法。
 '''
+
