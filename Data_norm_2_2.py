@@ -23,5 +23,4 @@ def data_norm(Y_name='待生定碳',input_path='筛选后数据.xlsx',save_path=
     Norm_data.to_excel(save_path, index=None)
     return X_norm,Y_data,X_preprocess,Norm_data
 
-
 X_norm,Y_data,X_preprocess,Norm_data = data_norm(Y_name='待生定碳', input_path='总数据集_1.xlsx', save_path='总数据集_2.xlsx')
