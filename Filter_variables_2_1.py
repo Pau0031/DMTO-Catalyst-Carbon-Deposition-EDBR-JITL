@@ -40,5 +40,6 @@ def data_saixuan(input_columns = input_columns_name, data_before_path = '样本�
     data_after.to_excel(data_after_path, index=None)
     return data_after
 
+
 data_saixuan(input_columns = input_columns_name, data_before_path = '总数据集.xlsx',
              data_after_path='总数据集_1.xlsx')
