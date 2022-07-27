@@ -33,5 +33,4 @@ def ED_calculate(His_path='历史数据库_1800.xlsx', New_path='新样本集_20
     Loc_data.to_excel(Loc_path, index=None)  # 保存局部数据集
     return t, His_data, New_data, Loc_data
 
-
 t, His_data, New_data, Loc_data = ED_calculate(His_path='历史数据库_1800.xlsx', New_path='新样本集_200.xlsx')
