@@ -18,5 +18,6 @@ normalize:bool, default=False
 当fit_intercept设置为False时，忽略此参数。如果为真，则回归前，通过减去平均值并除以l2范数，
 对回归数X进行归一化。
 
+
 原文链接：https://blog.csdn.net/qq_34356768/article/details/107007987
 '''
