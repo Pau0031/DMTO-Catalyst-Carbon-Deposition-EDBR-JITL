@@ -19,5 +19,6 @@ def Data_Split(input_path='归一化数据.xlsx', His_path='历史数据库_1800
     New_data.to_excel(New_path, index=None)
     return His_data, New_data
 
+
 His_data, New_data = Data_Split(input_path='总数据集_2.xlsx',
         His_path='历史数据库_2000.xlsx',New_path='新样本集_343.xlsx')
