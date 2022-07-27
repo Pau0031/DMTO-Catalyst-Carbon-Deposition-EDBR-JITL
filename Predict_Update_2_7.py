@@ -16,5 +16,4 @@ def Predict_Update(His_data, New_data, i=t, path='历史数据库_更新后.xlsx
     His_data.to_excel(path, index=None)  # 导出数据库
     return His_data
 
-
 His_data = Predict_Update(His_data, New_data, i=t, path='历史数据库_更新后.xlsx')
