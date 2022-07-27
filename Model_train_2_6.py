@@ -23,5 +23,4 @@ def model_train(Model_init=input_model, data=Loc_data):
         print('公式截距：', Model.intercept_)
     return Model
 
-
 Model = model_train(Model_init=input_model, data=Loc_data)
